@@ -2,142 +2,100 @@ GIT-VERSION-CONTROL-BASICS
 
 ## MINI-PROJECT 2
 
-#### This project requires two developers to collaborate on a project. Their responsibilities include cloning the central repository, creating a new branch, making changes within the branch, merging those changes back, pushing the update to git and finally, integrating the branch into the main project.
+#### This project requires two developers to collaborate on a project.
 
 ## Initial setup:
+- step 0
 
-### git init for the website in the central repository
+### git init initialise a new repository
 
-<p img-align="center">
-<img src="./img/5. git init 2.png" height="100%" width="100%" alt="gitbasic">
-</p>
+![git-init](./img/5.%20git%20init%202.png)
 
-### git clone for tom from the project in the central repository
+- step 1
+### Tom clones repository from the central repository to his local machine
+![Tom's clone](./img/11.%20Tom's%20cloned%20repo.png)
 
-<p img-align="center">
-<img src="./img/10. tom cloning from central repo.png" height="100%" width="100%" alt="gitbasic">
-</p>
+- step 2
+### Jerry clones repository from the central repository to his local machine
+![Jerry's clone](./img/12.%20Jerry's%20cloned%20repo.png)
 
-### git clone for jerry from the project in the central repository
 
-<p img-align="center">
-<img src="./img/12. Jerry&apos;s cloned repo.png" height="100%" width="100%" alt="gitbasic">
-</p>
 
+- step 3
 ### Tom's pull request
 
-<p img-align="center">
-<img src="./img/15. Tom&apos;s pull request.png" height="100%" width="100%" alt="gitbasic">
-</p>
+![Tom's pull request](./img/15.%20Tom's%20pull%20request.png)
 
-### Jerry's pull request
-
-<p img-align="center">
-<img src="./img/16. Jerry&apos;s pull request.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
+- step 4
 ### Tom's branch update-navigation
 
-<p img-align="center">
-<img src="./img/18. Tom&apos;s branch update-navigation.png" height="100%" width="100%" alt="gitbasic">
-</p>
+![Tom's branch](./img/18.%20Tom's%20branch%20update-navigation.png)
 
+- step 5
 ### Jerry's branch add-contact-info
 
-<p img-align="center"> 
-<img src="./img/17. jerry&apos;s branch add-cont-info.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
-### Tom's update on Navigation-bar
-
-<p img-align="center">
-<img src="./img/25. update-navigation-bar on repo.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
-### Jerry's update add-contact-info
-
-<p img-align="center">
-<img src="./img/24. add-contact-info branch on repo.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
-### Tom's commit on git
-
-<p img-align="center">
-<img src="./img/20. Jerry&apos;s branch commited.png" height="100%" width="100%" alt="gitbasic">
-</p>
+![Jerry's branch](./img/17.%20jerry's%20branch%20add-cont-info.png)
 
 
-<p img-align="center">
-<img src="./img/41 git status.png" height="100%" width="100%" alt="gitbasic">
-</p>
+- step 6
+### index.html in the central repository before any edit by Tom and Jerry
 
-### Jerry's commit on git
+![index.html file before edits by Tom and Jerry](./img/Snipaste_2025-05-01_03-42-42.png)
 
-<p img-align="center">
-<img src="./img/21. Staging changes to jerry&apos;s branch.png" height="100%" width="100%" alt="gitbasic">
-</p>
+- step 7
+### Tom's update on Navigation-bar by adding a Newsletter
 
-### Tom's commit message on git
+![Tom's update on the Nav-bar](./img/54.%20TOM%20UPDATE%20NEWSLETTER.png)
 
-<p img-align="center">
-<img src="./img/39. Git commit for tom&apos;s update.png" height="100%" width="100%" alt="gitbasic">
-</p>
 
+- step 8
+### Jerry's update on add-contact-info. E-mail added
+
+![Jerry's update on the contact info- adds email](./img/55.%20jerrys%20update%20contact%20info.png)
+
+- step 9
+### Jerry commits his branch
+
+![Jerry commits his branch](./img/56.%20Jerry's%20branch%20commited.png)
+
+- step 10
+### Jerry push his branch to central repository
+
+![Jerry push branch to central repository](./img/27.%20git%20push%20origin%20add-contact-info%20branch.png)
+
+- step 11
+### Tom push his branch to central repository
+![Tom push branch to central repository](./img/23.%20To's%20push%20to%20central%20repo.png)
+
+- step 12
+### Jerry's commit message
+
+![Jerry's commit message](./img/22.%20Jerry's%20branch%20commit%20message.png)
+
+- step 13
 ### Tom's updated committed message on github
 
-<p img-align="center">
-<img src="./img/40. Toms git commit with message.png" height="100%" width="100%" alt="gitbasic">
+![Tom's commit message](./img/40.%20Toms%20git%20commit%20with%20message.png)
 
 ### Jerry's updated committed with message on github
 
-<p img-align="center">
-<img src="./img/38. Jerry&apos;s update committed with message.png" height="100%" width="100%" alt="gitbasic">
-</p>
+- step 13
+![Jerry's updated committed message](./img/38.%20Jerry's%20update%20committed%20with%20message.png)
 
-### Jerry's commit message on github
 
-<p img-align="center">
-<img src="./img/37. jerry git commit message.png" height="100%" width="100%" alt="gitbasic">
-</p>
+- step 14
 
-### Tom's push to central repository
-
-<p img-align="center">
-<img src="./img/26. git push origin update-navigation branch.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
-### Jerry's push to central repository
-
-<p img-align="center">
-<img src="./img/27. git push origin add-contact-info branch.png" height="100%" width="100%" alt="gitbasic">
-</p>
 
 ### Tom's merging and creating a pull request for update-navigation
 
-<p img-align="center">
-<img src="./img/20. Jerry&apos;s branch commited.png" height="100%" width="100%" alt="gitbasic">
-</p>
+![Tom's merged pull request](./img/31.%20Tom%20merged%20pull%20request.png)
 
-### The team merging Tom's pull request into the index.html file on the main project
-
-<p img-align="center">
-<img src="./img/31. Tom merged pull request.png" height="100%" width="100%" alt="gitbasic" >
-</p>
-
-### Jerry updating his branch with the latest changes that includes Tom's update
-
-<p img-align="center">
-<img src="./img/33. Merged update on tom and jerry.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
-### Jerry updating his branch and creating a pull request for his changes.
-
-<p img-align="center">
-<img src="./img/16. Jerry&apos;s pull request.png" height="100%" width="100%" alt="gitbasic">
-</p>
-
+- step 15
 ### The team merging Jerry's addition to the main project
 
-<p img-align="center">
-<img src="./img/35. merging jerrys pull request to the master branch.png">
-</p>
+![Tom and Jerry central repository with index.html](./img/33.%20Merged%20update%20on%20tom%20and%20jerry.png)
+
+
+- step 16
+
+![](./img/35.%20merging%20jerrys%20pull%20request%20to%20the%20master%20branch.png)
