@@ -66,6 +66,11 @@ GIT-VERSION-CONTROL-BASICS
 <img src="./img/20. Jerry&apos;s branch commited.png" height="100%" width="100%" alt="gitbasic">
 </p>
 
+
+<p img-align="center">
+<img src="./img/41 git status.png" height="100%" width="100%" alt="gitbasic">
+</p>
+
 ### Jerry's commit on git
 
 <p img-align="center">
@@ -74,29 +79,22 @@ GIT-VERSION-CONTROL-BASICS
 
 ### Tom's commit message on git
 
-
 <p img-align="center">
 <img src="./img/39. Git commit for tom&apos;s update.png" height="100%" width="100%" alt="gitbasic">
 </p>
 
-
 ### Tom's updated committed message on github
-
 
 <p img-align="center">
 <img src="./img/40. Toms git commit with message.png" height="100%" width="100%" alt="gitbasic">
 
 ### Jerry's updated committed with message on github
 
-
-
 <p img-align="center">
 <img src="./img/38. Jerry&apos;s update committed with message.png" height="100%" width="100%" alt="gitbasic">
 </p>
 
 ### Jerry's commit message on github
-
-
 
 <p img-align="center">
 <img src="./img/37. jerry git commit message.png" height="100%" width="100%" alt="gitbasic">
